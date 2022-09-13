@@ -1,19 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
-var greet="Greetings my fellas";
+
 function App() {
   return (
     <>
-    <nav>
-    <li>Welcome</li>
-    <li>Information</li>
-    <li>Contact</li>
-    </nav>
-    <div className="blank">
-    <h1>Hi {greet}</h1>
-    <p>Welcome, to my website I am HArshit Mathur,Greeting from my side Thank you</p>
-    </div>
+    
+  <Navbar abouttexters="About Texters"/>
+  <div className="container my-10">
+  <TextForm heading="Enter your text below!!" />
+  </div>
+    
+
+    
     </>
   );
 }
