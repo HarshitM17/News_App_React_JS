@@ -1,1 +1,1 @@
-# React_JS
+# News_app_React_JS
